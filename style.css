@@ -46,6 +46,10 @@ body * {
 
 #profile img {
   width: 112px;
+  width: 112px;
+  height: 112px; /* 1. Adicione a altura igual à largura */
+  border-radius: 50%; /* 2. Adicione isso para arredondar */
+  object-fit: cover; /* 3. Adicione isso para não distorcer o logo */
 }
 
 #profile p {
